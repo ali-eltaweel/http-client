@@ -1,6 +1,6 @@
 {
     "name": "ali-eltaweel/http-client",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Asynchronous HTTP client for PHP",
     "maintainers": [
         {
@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
